@@ -265,6 +265,17 @@
     </div>
   </section>
 
+  <!-- Escort Section -->
+  <section class="content-section">
+    <h2 class="section-title">Escort Service</h2>
+    <div class="cards-container" id="escort-ads-container">
+      <div class="loading-spinner"></div>
+    </div>
+    <div class="section-cta-small">
+      <a href="https://6love.ch/de/ads?category=8" class="cta-button-small">Alle Escorts</a>
+    </div>
+  </section>
+
   <!-- Most Viewed Blogs Section -->
   <section class="content-section">
     <h2 class="section-title">Meistgelesene Blog-Artikel</h2>
@@ -436,6 +447,7 @@
 
     document.addEventListener('DOMContentLoaded', () => {
       fetchPremiumAds();
+      fetchEscortAds();
       fetchMostViewedBlogs();
       fetchMostAdsProfiles();
       fetchLiveBanners();
